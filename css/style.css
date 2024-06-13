@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-image: url('../images/tes.jpg');
+    background-repeat: no-repeat center center fixed; 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.form-daftar {
+    width: 360px;
+    height: 620px;
+    top: 50%;
+    left: 50%;
+    padding: 70px 30px;
+    position: absolute;
+    background: #111111;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border: 1px solid #333;
+    border-radius: 10px;
+}
+.logo {
+    width: 200px;
+    height: 200px;
+    top: 10px;
+    left: 25%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 12px;
+    margin-top: 125px;
+    font-weight: bold;
+}
+.form-daftar input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+input, 
+input::placeholder  {
+    padding: 10px;
+}
+.form-input {
+    letter-spacing: 2px;
+    height: 40px;
+    background: #222;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid #222;
+
+    outline: none;
+}
+.btn {
+    height: 45px;
+    background: #06d6a0;
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    outline: none;
+    transition: 1s ease;
+}
+.btn:hover{
+    cursor: pointer;
+    color: #111111;
+}
+.txt {
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: 20%;
+    align-items: center;
+    justify-content: center;
+}
+.link {
+    font-size: 18px;
+    line-height: 10px;
+    top: 50px;
+    margin-left: 105px;
+    align-items: center;
+    justify-content: center;
+    color: #fff ;
+}
+.link:hover {
+    color: #06d6a0;
+    transition: 1s ease;   
+}
+.icon {
+    width: 200px;
+    height: 200px;
+    top: 15px;
+    left: 25%;
+    position: absolute;
+    align-items: center;
+    justify-content: center ;
+}
+.judul {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 145px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.form-login {
+    width: 360px;
+    height: 620px;
+    top: 50%;
+    left: 50%;
+    padding: 70px 30px;
+    position: absolute;
+    background: #111111;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border: 1px solid #333;
+    border-radius: 10px;   
+}
+.form-login input {
+    width: 100%;
+    margin-bottom: 25px;
+}
+.form-section {
+    height: 45px;
+    background: #222;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid #222;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 25px;
+}
+.btn-login {
+    margin-top: 15px;
+    height: 45px;
+    background: #06d6a0;
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    outline: none;
+    transition: 1s ease;
+}
+.btn-login:hover{
+    cursor: pointer;
+    color: #111111;
+}
+.notif {
+    font-size: 18px;
+    line-height: 55px;
+    margin-left: 20%;
+    align-items: center;
+    justify-content: center;
+}
